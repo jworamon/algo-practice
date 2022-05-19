@@ -11,6 +11,8 @@ Examples:
     Explanation: Nodes 6, 7, and 10 are in the range [6, 10]. 6 + 7 + 10 = 23.
 */
 
+
+// Time: O(N) Space: O(N)
 const BSTRangeSum = (root, low, high) => {
     let sum = 0;
     // if root node is null, sum is 0

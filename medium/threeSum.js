@@ -5,6 +5,7 @@ and nums[i] + nums[j] + nums[k] == 0.
 Notice that the solution set must not contain duplicate triplets.
 */
 
+// Time: O(N^2) Space: O(N)
 const threeSum = (nums) => {
     const result = [];
     if (nums.length < 3) return result;

@@ -6,6 +6,7 @@ Return the maximum profit you can achieve from this transaction.
 If you cannot achieve any profit, return 0.
 */
 
+// Time: O(N) Space: O(1)
 const maxProfit = (arr) => {
     let profit = 0;
     let buy = arr[0];

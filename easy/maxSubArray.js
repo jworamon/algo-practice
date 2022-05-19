@@ -9,6 +9,7 @@ Example:
     Explanation: [4,-1,2,1] has the largest sum = 6.
 */
 
+// Time: O(N) Space: O(1)
 const maxSubArray = (arr) => {
     let currentMax = globalMax = arr[0];
     for (let i = 1; i < arr.length; i++) {

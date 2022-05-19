@@ -1,4 +1,5 @@
-/* An image is represented by an m x n integer grid image where 
+/* 
+An image is represented by an m x n integer grid image where 
 image[i][j] represents the pixel value of the image.
 
 You are also given three integers sr, sc, and newColor. 
@@ -21,6 +22,7 @@ Example:
     the starting pixel.
 */
 
+// Time: O(N) Space: O(N)
 const floodFillDFS = (image, sr, sc, newColor) => {
     const currentColor = image[sr][sc];
     if (currentColor === newColor) return image;
@@ -44,6 +46,7 @@ const floodFillDFS = (image, sr, sc, newColor) => {
     return callDFS(image, sr, sc);
 }
 
+// Time: O(N) Space: O(N)
 const floodFillBFS = (image, sr, sc, newColor) => {
     const currentColor = image[sr][sc];
     if (currentColor === newColor) return image;

@@ -5,6 +5,7 @@ The list should be made by splicing together the nodes of the first two lists.
 Return the head of the merged linked list.
 */
 
+// Time: O(N + M) Space: O(1)
 const mergeTwoLists = (list1, list2) => {
     let mergedHead = { val: -1, next: null };
     let current = head;
