@@ -71,9 +71,9 @@ undergroundSystem.checkIn(27, "Leyton", 10);
 undergroundSystem.checkOut(45, "Waterloo", 15); 
 undergroundSystem.checkOut(27, "Waterloo", 20);
 undergroundSystem.checkOut(32, "Cambridge", 22);
-undergroundSystem.getAverageTime("Paradise", "Cambridge");
-undergroundSystem.getAverageTime("Leyton", "Waterloo");
+undergroundSystem.getAverageTime("Paradise", "Cambridge"); // return 14
+undergroundSystem.getAverageTime("Leyton", "Waterloo"); // return 11
 undergroundSystem.checkIn(10, "Leyton", 24);
-undergroundSystem.getAverageTime("Leyton", "Waterloo");  
+undergroundSystem.getAverageTime("Leyton", "Waterloo"); // return 11
 undergroundSystem.checkOut(10, "Waterloo", 38);
-undergroundSystem.getAverageTime("Leyton", "Waterloo");    
+undergroundSystem.getAverageTime("Leyton", "Waterloo");    // return 12 
